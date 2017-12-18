@@ -1,0 +1,21 @@
+body {
+    font-family: 'Barlow', sans-serif !important;
+    background-color: #e9ece5 !important;
+}
+
+.name {
+    font-family: Barlow-SemiBold;
+    font-size: 64px;
+}
+
+.description {
+    font-size: 18px !important;
+}
+
+.emblem {
+background: #D8D8D8;
+border: 1px solid #979797;
+font-family: Helvetica;
+font-size: 48px;
+color: #000000;
+}
