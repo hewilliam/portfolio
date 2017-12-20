@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import Emblem from './Emblem';
-import Nav from './Nav'
+import NavBar from './NavBar';
 
 export default class ProjectPage extends Component {
     render () {
         return (
-            <div>
-                project page
-                <Emblem />
-                <Nav />
+            <div className='screen'>
+                <NavBar />
             </div>
         )
     }

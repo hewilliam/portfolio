@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import Emblem from './Emblem';
-import Nav from './Nav'
+import NavBar from './NavBar';
 
 export default class AboutMePage extends Component {
-    render () {
+    render() {
         return (
-            <div>
+            <div className='screen'>
+                <NavBar />
                 aboutmepage
-                <Emblem />
-                <Nav />
             </div>
         )
     }

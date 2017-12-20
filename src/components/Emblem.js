@@ -5,7 +5,7 @@ export default class Emblem extends Component {
     render () {
         return (
             <div>
-                <Link to="/" className="emblem col-sm-1">W</Link>
+                <Link to="/" className="emblem">W</Link>
             </div>
         )
     }
