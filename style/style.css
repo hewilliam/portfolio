@@ -1,16 +1,23 @@
 body {
     font-family: 'Barlow', sans-serif !important;
-    background-color: #e9ece5 !important;
+    background-color: #e9ece5;
+}
+
+img {
+    width: auto;
+    height: auto;
 }
 
 .name {
     font-family: Barlow-SemiBold;
     font-size: 64px;
     line-height: 60px;
+    color: white;
 }
 
 .description {
     font-size: 18px !important;
+    color: white;
 }
 
 .emblem {
@@ -27,4 +34,8 @@ body {
 
 .screen {
     margin-top: 30px;
+}
+
+.homepage {
+    background-image: url("../asset/homepage.jpg")
 }
